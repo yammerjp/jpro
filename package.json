@@ -6,7 +6,8 @@
     "j-j": "index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "./index.js",
+    "test": "./test.sh"
   },
   "repository": {
     "type": "git",
