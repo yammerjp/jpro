@@ -46,26 +46,26 @@ The following variables are available in the code piece.
 
 Examples of execution is shown below.
 
-    $ echo '{"name":"bob","like":["sushi","orange"]}' | j-j '.like'
+    $ echo '{"name":"bob","like":["sushi","orange"]}' | npx j-j '.like'
     [
      "sushi",
      "orange"
     ]
 
-    $ echo '{"name":"bob","like":["sushi","orange"]}' | j-j '&& Object.keys(input)'
+    $ echo '{"name":"bob","like":["sushi","orange"]}' | npx j-j '&& Object.keys(input)'
     [
      "name",
      "like"
     ]
 
-    $ echo '{"name":"bob","like":["sushi","orange"]}' | j-j '; stdout = input.like.join("&")'
+    $ echo '{"name":"bob","like":["sushi","orange"]}' | npx j-j '; stdout = input.like.join("&")'
     sushi&orange
 
-    $ echo 'hello, world' | j-j ';stdout = stdin.toUpperCase()'
+    $ echo 'hello, world' | npx j-j ';stdout = stdin.toUpperCase()'
     Warning: failed to parse JSON from STDIN
     HELLO, WORLD
 
-    $ echo 'hello, world' | J_J_SILENT=true j-j ';stdout = stdin.toUpperCase()'
+    $ echo 'hello, world' | J_J_SILENT=true npx j-j ';stdout = stdin.toUpperCase()'
     HELLO, WORLD
 
 ## License
