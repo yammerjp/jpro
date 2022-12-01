@@ -1,6 +1,8 @@
 j-j
 ===
 
+[![CI](https://github.com/yammerjp/j-j/actions/workflows/ci.yaml/badge.svg)](https://github.com/yammerjp/j-j/actions/workflows/ci.yaml)
+
 j-j is a JSON processor that can be written in a JavaScript code piece.
 The command line argument code piece is interpreted as follows.
 
