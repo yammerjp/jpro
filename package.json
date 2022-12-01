@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/yammerjp/j-j/issues"
   },
+  "files": [
+    "index.js"
+  ],
   "homepage": "https://github.com/yammerjp/j-j#readme"
 }
