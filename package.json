@@ -1,0 +1,26 @@
+{
+  "name": "j-j",
+  "version": "0.1.0",
+  "description": "j-j is a JSON processor that can be written in a JavaScript code piece.",
+  "main": "j-j",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yammerjp/j-j.git"
+  },
+  "keywords": [
+    "JSON",
+    "jq",
+    "CLI",
+    "development",
+    "tool"
+  ],
+  "author": "Keisuke Nakayama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yammerjp/j-j/issues"
+  },
+  "homepage": "https://github.com/yammerjp/j-j#readme"
+}
