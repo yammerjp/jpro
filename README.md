@@ -8,7 +8,7 @@ jpro is a JSON processor that can be written in a JavaScript code piece.
 
 ## Demo
 
-You can immediately run the following command, if you have node.js installed
+You can immediately run the following command, if you have Node.js and npm installed
 
     $ echo '{"name":"bob","like":["sushi","orange"]}' | npx jpro '.like'
     [
@@ -19,7 +19,7 @@ You can immediately run the following command, if you have node.js installed
 Or you can install it and run it without `npx`. This will be faster to execute.
 
     # Install jpro to your computer
-    npm install -g jpro
+    $ npm install -g jpro
 
     # Run
     $ echo '{"name":"bob","like":["sushi","orange"]}' | npx jpro '.like'
